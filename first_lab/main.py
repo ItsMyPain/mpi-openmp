@@ -78,5 +78,5 @@ def bandwight():
     plt.xscale('log')
     plt.show()
 
-
+transfer_time()
 bandwight()
