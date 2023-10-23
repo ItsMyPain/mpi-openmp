@@ -1,0 +1,6 @@
+plot 'rows.dat' t 'rows' pt 7 ps 0.5 w lp, 'cols.dat' t 'cols' pt 7 ps 0.5 w lp
+set xrange[1:28]
+set grid
+set key left top
+set xlabel 'Nodes'
+set ylabel 'Speedup'
